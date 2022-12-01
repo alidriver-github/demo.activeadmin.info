@@ -83,3 +83,7 @@ a {
 .error_messages ul {
   margin: 0;
 }
+
+#header {
+  background-color: #6C6;
+}
