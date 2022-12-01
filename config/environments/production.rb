@@ -2,7 +2,9 @@ require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-
+  config.hosts = [
+    "alidriver-github-upgraded-bassoon-59gjqwxqqphpp6w-3000.preview.app.github.dev"
+  ]
   # Code is not reloaded between requests.
   config.cache_classes = true
 
